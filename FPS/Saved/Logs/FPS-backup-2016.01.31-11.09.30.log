@@ -1,0 +1,700 @@
+﻿[2016.01.30-22.55.20:162][  0]Log file open, 01/30/16 23:55:20
+[2016.01.30-22.55.20:162][  0]LogInit:Display: Running engine for game: FPS
+[2016.01.30-22.55.20:162][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.30-22.55.20:162][  0]LogInit:Display: RandInit(-1946293286) SRandInit(-1946293284).
+[2016.01.30-22.55.20:162][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.30-22.55.20:162][  0]LogStats: Stats thread started at 0.123230
+[2016.01.30-22.55.20:162][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.30-22.55.20:162][  0]LogInit: API Version: 2758231
+[2016.01.30-22.55.20:162][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.30-22.55.20:162][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.30-22.55.20:162][  0]LogInit: Build Configuration: Development
+[2016.01.30-22.55.20:162][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.30-22.55.20:162][  0]LogInit: Command line: 
+[2016.01.30-22.55.20:162][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.30-22.55.20:162][  0]LogInit: Rocket: 1
+[2016.01.30-22.55.20:186][  0]LogInit: Using libcurl 7.41.0
+[2016.01.30-22.55.20:186][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.30-22.55.20:186][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.30-22.55.20:186][  0]LogInit:  - other features:
+[2016.01.30-22.55.20:186][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.30-22.55.20:186][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.30-22.55.20:186][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.30-22.55.20:186][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.30-22.55.20:186][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.30-22.55.20:186][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.30-22.55.20:186][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.30-22.55.20:186][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.30-22.55.20:186][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.30-22.55.20:186][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.30-22.55.20:224][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.30-22.55.20:243][  0]LogInit: Object subsystem initialized
+[2016.01.30-22.55.20:253][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-22.55.20:253][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.30-22.55.20:274][  0]LogInit: Computer: DESKTOP-JHQJSTD
+[2016.01.30-22.55.20:274][  0]LogInit: User: Myran
+[2016.01.30-22.55.20:274][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.30-22.55.20:274][  0]LogInit: High frequency timer resolution =2.241000 MHz
+[2016.01.30-22.55.20:274][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.01.30-22.55.20:274][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.30-22.55.20:274][  0]LogMemory: Process Physical Memory: 56.50 MB used, 56.50 MB peak
+[2016.01.30-22.55.20:274][  0]LogMemory: Process Virtual Memory: 57.99 MB used, 57.99 MB peak
+[2016.01.30-22.55.20:274][  0]LogMemory: Physical Memory: 3162.30 MB used, 4001.87 MB total
+[2016.01.30-22.55.20:274][  0]LogMemory: Virtual Memory: 385.61 MB used, 134217728.00 MB total
+[2016.01.30-22.55.20:333][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.30-22.55.21:748][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630M (Feature Level 11_0)
+[2016.01.30-22.55.21:748][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 2 output[s]
+[2016.01.30-22.55.21:781][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 630M (Feature Level 11_0)
+[2016.01.30-22.55.21:781][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 0 output[s]
+[2016.01.30-22.55.21:788][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.30-22.55.21:788][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 2000MB of shared system memory, 0 output[s]
+[2016.01.30-22.55.21:788][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.30-22.55.21:801][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.30-22.55.21:801][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.30-22.55.21:841][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.30-22.55.21:886][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Intermediate/Shaders/WorkingDirectory/4012/).
+[2016.01.30-22.55.21:887][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Myran/AppData/Local/Temp/UnrealShaderWorkingDir/05185CD140C9BD5B167D99BDFFF6B029/'.
+[2016.01.30-22.55.21:887][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.30-22.55.26:559][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.30-22.55.26:576][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.30-22.55.26:589][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.30-22.55.26:606][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.30-22.55.26:622][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.30-22.55.26:637][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.30-22.55.26:648][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.30-22.55.26:664][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.30-22.55.26:685][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.30-22.55.26:707][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.30-22.55.26:719][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.30-22.55.26:743][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.30-22.55.26:743][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.30-22.55.26:748][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.30-22.55.26:779][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.30-22.55.26:787][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.30-22.55.26:799][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.30-22.55.26:807][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.30-22.55.26:807][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.30-22.55.27:063][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.30-22.55.27:232][  0]LogDerivedDataCache: Loaded boot cache 0.17s 41MB C:/Users/Myran/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.30-22.55.27:232][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Myran/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.30-22.55.27:232][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.30-22.55.27:232][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.30-22.55.27:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.30-22.55.27:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.30-22.55.27:384][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.30-22.55.27:400][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Myran/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.30-22.55.28:039][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.30-22.55.28:048][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.30-22.55.28:601][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.30-22.55.28:601][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.30-22.55.30:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.30-22.55.33:589][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.30-22.55.33:591][  0]FUdpSocketBuilder: Failed to create the socket UdpMessageMulticastSocket as configured
+[2016.01.30-22.55.33:591][  0]UdpMessageTransport.StartTransport: Failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2016.01.30-22.55.33:743][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.01.30-22.55.34:227][  0]SourceControl: Info Source control is disabled
+[2016.01.30-22.55.34:415][  0]SourceControl: Info Source control is disabled
+[2016.01.30-22.55.34:443][  0]SourceControl: Info Source control is disabled
+[2016.01.30-22.55.34:467][  0]SourceControl: Info Source control is disabled
+[2016.01.30-22.55.35:140][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.30-22.55.35:140][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.30-22.55.35:281][  0]LogEngine: Initializing Engine...
+[2016.01.30-22.55.35:286][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.30-22.55.35:287][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.30-22.55.36:458][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.30-22.55.36:534][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-22.55.36:641][  0]LogInit: FAudioDevice initialized.
+[2016.01.30-22.55.36:822][  0]LogDerivedDataCache: Saved boot cache 0.18s 41MB C:/Users/Myran/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.30-22.55.37:136][  0]LogInit: Texture streaming: Enabled
+[2016.01.30-22.55.37:203][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.30-22.55.37:203][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.30-22.55.37:204][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 12189b20408bbc0b2d4557975c2d7ef4|20c8adfa9f9640e5a57c17fd2f2868d5|ceb4ef6f-e501-4244-a277-49f194b9a0bc
+[2016.01.30-22.55.37:204][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.30-22.55.37:287][  0]LogInit: Transaction tracking system initialized
+[2016.01.30-22.55.37:648][  0]BlueprintLog: New page: Editor Load
+[2016.01.30-22.55.39:007][  0]LocalizationService: Info Localization service is disabled
+[2016.01.30-22.55.39:325][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.01.30-22.55.39:325][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.01.30-22.55.39:325][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.01.30-22.55.39:707][  0]LogConsoleResponse:Display: 
+[2016.01.30-22.55.40:072][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.30-22.55.40:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Myran/Documents/Unreal Projects/FPS/Content/' took 0.01s
+[2016.01.30-22.55.40:287][  0]SourceControl: Info Source control is disabled
+[2016.01.30-22.55.40:288][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.30-22.55.40:290][  0]LightingResults: New page: Lighting Build
+[2016.01.30-22.55.40:300][  0]MapCheck: New page: Map Check
+[2016.01.30-22.55.40:300][  0]LightingResults: New page: Lighting Build
+[2016.01.30-22.55.40:358][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002087B9EA160
+[2016.01.30-22.55.40:861][  0]LogLinker:Warning: Asset '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-22.55.43:924][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-22.55.44:011][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.30-22.55.44:014][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.30-22.55.44:769][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 754.836ms to complete.
+[2016.01.30-22.55.44:770][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 4.483
+[2016.01.30-22.55.45:063][  0]LogCollectionManager: Loaded 0 collections in 0.009923 seconds
+[2016.01.30-22.55.45:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Myran/Documents/Unreal Projects/FPS/Saved/Collections/' took 0.01s
+[2016.01.30-22.55.45:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Myran/Documents/Unreal Projects/FPS/Content/Developers/Myran/Collections/' took 0.01s
+[2016.01.30-22.55.45:152][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Myran/Documents/Unreal Projects/FPS/Content/Collections/' took 0.01s
+[2016.01.30-22.55.45:152][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.01.30-22.55.45:200][  0]LogContentBrowser: Native class hierarchy populated in 0.0468 seconds. Added 1893 classes and 338 folders.
+[2016.01.30-22.55.45:226][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.01.30-22.55.45:491][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.01.30-22.55.45:514][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.01.30-22.55.45:575][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.30-22.55.45:584][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.30-22.55.45:609][  0]LogLoad: Full Startup: 26.34 seconds (BP compile: 0.46 seconds)
+[2016.01.30-22.55.45:639][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.30-22.55.45:839][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.01.30-22.55.46:197][  0]LogRenderer: Reallocating scene render targets to support 964x436 (Frame:2).
+[2016.01.30-22.55.47:258][ 10]LogAssetRegistry: Asset discovery search completed in 13.5255 seconds
+[2016.01.30-22.55.47:258][ 10]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.01.30-22.55.47:258][ 10]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2016.01.30-22.58.01:939][281]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-22.58.04:997][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 107 classes and 0 folders.
+[2016.01.30-22.58.06:453][282]LogRenderer: Reallocating scene render targets to support 1000x600 (Frame:1205).
+[2016.01.30-22.59.41:507][729]BlueprintLog: New page: Compile Ghost
+[2016.01.30-22.59.42:820][729]BlueprintEditorCompileResults: Info [0263.55] Compile of Ghost successful! [in 1,312 ms]
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.Ghost:UserConstructionScript.K2Node_FunctionEntry_62' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.SKEL_Ghost_C' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.Ghost_C' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.Ghost:EventGraph.K2Node_Event_6' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.Ghost:EventGraph.K2Node_Event_7' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:336][621]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/Ghost.Ghost:EventGraph.K2Node_Event_8' ref from Metadata '/Game/FirstPersonBP/Ghost.PackageMetaData'
+[2016.01.30-23.04.07:448][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Ghost" FILE="../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset" SILENT=true
+[2016.01.30-23.04.07:693][621]LogSavePackage: Save=177.251678ms
+[2016.01.30-23.04.07:693][621]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Ghost42EBAFA64BCB5CCB0AF6F8BCCF6A79E7.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset'
+[2016.01.30-23.04.07:717][621]LogSavePackage: Total save time: 255.700581ms
+[2016.01.30-23.04.07:717][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset
+[2016.01.30-23.04.26:881][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.04.26:881][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.04.33:944][127]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.01.30-23.05.15:093][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.01.30-23.06.33:565][103]BlueprintLog: New page: Compile Ghost
+[2016.01.30-23.06.33:580][103]LogBlueprint:Error: [compiler Ghost] Error Could not find a function named "TouchGhost" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Touch Ghost 
+[2016.01.30-23.06.33:793][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.01.30-23.06.33:879][103]LogBlueprint:Warning: [compiler Ghost] Warning [0674.61] Compile of Ghost failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.01.30-23.06.33:879][103]BlueprintEditorCompileResults:Error: Error Could not find a function named "TouchGhost" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Touch Ghost 
+[2016.01.30-23.06.33:879][103]BlueprintEditorCompileResults:Warning: Warning [0674.61] Compile of Ghost failed. 1 Fatal Issue(s) 0 Warning(s) [in 313 ms]
+[2016.01.30-23.06.47:297][399]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.06.47:720][399]BlueprintEditorCompileResults: Info [0688.45] Compile of FirstPersonCharacter successful! [in 421 ms]
+[2016.01.30-23.06.49:395][434]BlueprintLog: New page: Compile Ghost
+[2016.01.30-23.06.49:636][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.06.49:864][434]BlueprintEditorCompileResults: Info [0690.60] Compile of Ghost successful! [in 468 ms]
+[2016.01.30-23.07.16:896][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:900][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:903][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:907][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:912][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:915][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:918][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:921][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:925][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:928][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:930][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:932][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:935][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:939][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.01.30-23.07.16:943][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.07.16:944][ 71]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.07.17:165][ 71]LogEditorActor: Deleted 14 Actors (0.271 secs)
+[2016.01.30-23.07.21:174][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.07.21:174][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.07.21:245][192]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:07:21 AM)
+[2016.01.30-23.07.21:267][192]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.07.21:388][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120473s)
+[2016.01.30-23.07.21:391][192]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.07.21:393][192]LogPlayLevel: PIE: World Init took: (0.005292s)
+[2016.01.30-23.07.21:399][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.138944s)
+[2016.01.30-23.07.21:509][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.07.21:532][192]LogInit: FAudioDevice initialized.
+[2016.01.30-23.07.21:780][192]LogLinker:Warning: Asset '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.30-23.07.21:846][192]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.07.22:088][192]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.07.22
+[2016.01.30-23.07.22:088][192]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.07.22:115][192]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.07.22:195][192]LogWorld: Bringing up level for play took: 0.121054
+[2016.01.30-23.07.22:660][192]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.851
+[2016.01.30-23.07.22:661][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.07.27:802][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.07.28:012][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.07.28:351][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002084138A020
+[2016.01.30-23.07.54:975][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.07.54:975][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.08.01:319][ 68]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.01.30-23.08.08:811][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.01.30-23.08.12:393][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.01.30-23.08.19:964][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.01.30-23.09.34:689][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.01.30-23.09.38:081][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.01.30-23.09.43:896][136]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.09.44:611][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.01.30-23.09.44:943][136]BlueprintEditorCompileResults: Info [0865.68] Compile of FirstPersonCharacter successful! [in 1,046 ms]
+[2016.01.30-23.09.59:480][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.09.59:480][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.09.59:481][452]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:09:59 AM)
+[2016.01.30-23.09.59:481][452]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.09.59:576][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094547s)
+[2016.01.30-23.09.59:579][452]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.09.59:580][452]LogPlayLevel: PIE: World Init took: (0.004037s)
+[2016.01.30-23.09.59:581][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.099728s)
+[2016.01.30-23.09.59:581][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.09.59:814][452]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.09.59:834][452]LogInit: FAudioDevice initialized.
+[2016.01.30-23.09.59:887][452]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.09.59:895][452]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.09.59
+[2016.01.30-23.09.59:896][452]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.09.59:896][452]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.09.59:896][452]LogWorld: Bringing up level for play took: 0.008159
+[2016.01.30-23.10.00:000][452]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.191
+[2016.01.30-23.10.00:000][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.10.03:763][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.10.03:841][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.10.04:053][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020834731440
+[2016.01.30-23.10.29:125][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.10.29:125][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.11.26:467][307]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.11.26:534][307]LogBlueprint:Error: [compiler FirstPersonCharacter] Error Could not find a function named "Kill Me" in 'Ghost_C'.
+Make sure 'Ghost_C' has been compiled for  Kill Me 
+[2016.01.30-23.11.26:607][307]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a Ghost_C, therefore ' Target ' must have a connection.
+[2016.01.30-23.11.26:627][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.01.30-23.11.27:071][307]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0967.80] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 603 ms]
+[2016.01.30-23.11.27:071][307]BlueprintEditorCompileResults:Error: Error Could not find a function named "Kill Me" in 'Ghost_C'.
+Make sure 'Ghost_C' has been compiled for  Kill Me 
+[2016.01.30-23.11.27:071][307]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Ghost_C, therefore ' Target ' must have a connection.
+[2016.01.30-23.11.27:071][307]BlueprintEditorCompileResults:Warning: Warning [0967.80] Compile of FirstPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 603 ms]
+[2016.01.30-23.11.33:031][440]BlueprintLog: New page: Compile Ghost
+[2016.01.30-23.11.33:135][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.11.33:230][440]BlueprintEditorCompileResults: Info [0973.96] Compile of Ghost successful! [in 199 ms]
+[2016.01.30-23.15.35:364][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.16.19:646][544]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.16.19:920][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.01.30-23.16.21:052][544]BlueprintEditorCompileResults: Info [1261.78] Compile of FirstPersonCharacter successful! [in 1,406 ms]
+[2016.01.30-23.16.47:721][144]BlueprintLog: New page: Compile Ghost
+[2016.01.30-23.16.48:068][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.16.48:371][144]BlueprintEditorCompileResults: Info [1289.10] Compile of Ghost successful! [in 649 ms]
+[2016.01.30-23.17.23:822][916]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.17.24:261][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.17.24:261][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.17.24:372][916]BlueprintEditorCompileResults: Info [1325.10] Compile of FirstPersonCharacter successful! [in 550 ms]
+[2016.01.30-23.17.35:288][168]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.17.35:805][168]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.17.36:132][168]BlueprintEditorCompileResults: Info [1336.86] Compile of FirstPersonCharacter successful! [in 843 ms]
+[2016.01.30-23.17.50:851][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.17.50:851][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.17.50:851][498]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:17:50 AM)
+[2016.01.30-23.17.50:852][498]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.17.50:950][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097989s)
+[2016.01.30-23.17.50:954][498]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.17.50:955][498]LogPlayLevel: PIE: World Init took: (0.004492s)
+[2016.01.30-23.17.50:956][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.103901s)
+[2016.01.30-23.17.50:956][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.17.51:203][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.17.51:225][498]LogInit: FAudioDevice initialized.
+[2016.01.30-23.17.51:273][498]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.17.51:282][498]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.17.51
+[2016.01.30-23.17.51:282][498]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.17.51:283][498]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.17.51:283][498]LogWorld: Bringing up level for play took: 0.009507
+[2016.01.30-23.17.51:286][498]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.477
+[2016.01.30-23.17.51:286][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.17.56:850][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.17.56:938][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.17.57:173][711]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020835E97880
+[2016.01.30-23.18.43:832][675]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.18.44:358][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.18.44:358][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.18.44:547][675]BlueprintEditorCompileResults: Info [1405.28] Compile of FirstPersonCharacter successful! [in 714 ms]
+[2016.01.30-23.18.48:169][783]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.18.48:169][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.18.48:170][783]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:18:48 AM)
+[2016.01.30-23.18.48:170][783]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.18.48:265][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095054s)
+[2016.01.30-23.18.48:271][783]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.18.48:272][783]LogPlayLevel: PIE: World Init took: (0.006723s)
+[2016.01.30-23.18.48:273][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.102949s)
+[2016.01.30-23.18.48:273][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.18.48:575][783]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.18.48:636][783]LogInit: FAudioDevice initialized.
+[2016.01.30-23.18.48:723][783]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.18.48:746][783]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.18.48
+[2016.01.30-23.18.48:746][783]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.18.48:747][783]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.18.48:752][783]LogWorld: Bringing up level for play took: 0.024844
+[2016.01.30-23.18.48:765][783]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.956
+[2016.01.30-23.18.48:766][783]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.18.53:053][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.18.53:111][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.18.53:194][927]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020824556DE0
+[2016.01.30-23.19.34:006][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.19.34:006][767]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.19.51:568][ 67]BlueprintLog: New page: Compile Cherry
+[2016.01.30-23.19.51:766][ 67]BlueprintEditorCompileResults: Info [1472.50] Compile of Cherry successful! [in 197 ms]
+[2016.01.30-23.20.56:262][440]BlueprintLog: New page: Compile Cherry
+[2016.01.30-23.20.56:478][440]BlueprintEditorCompileResults: Info [1537.21] Compile of Cherry successful! [in 215 ms]
+[2016.01.30-23.21.27:014][240]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.21.27:014][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.21.27:015][240]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:21:27 AM)
+[2016.01.30-23.21.27:015][240]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.21.27:063][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048018s)
+[2016.01.30-23.21.27:065][240]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.21.27:065][240]LogPlayLevel: PIE: World Init took: (0.002069s)
+[2016.01.30-23.21.27:065][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050536s)
+[2016.01.30-23.21.27:065][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.21.27:065][240]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.21.27:183][240]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.21.27:203][240]LogInit: FAudioDevice initialized.
+[2016.01.30-23.21.27:261][240]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.21.27:272][240]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.21.27
+[2016.01.30-23.21.27:272][240]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.21.27:273][240]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.21.27:274][240]LogWorld: Bringing up level for play took: 0.011709
+[2016.01.30-23.21.27:276][240]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.533
+[2016.01.30-23.21.27:276][240]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.21.43:123][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.21.43:249][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.21.43:481][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002080D86DF80
+[2016.01.30-23.22.55:954][244]BlueprintLog: New page: Compile Cherry
+[2016.01.30-23.22.56:076][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.22.56:076][244]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.22.56:175][244]BlueprintEditorCompileResults: Info [1656.91] Compile of Cherry successful! [in 220 ms]
+[2016.01.30-23.23.36:225][963]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.23.36:756][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.23.37:113][963]BlueprintEditorCompileResults: Info [1697.85] Compile of FirstPersonCharacter successful! [in 887 ms]
+[2016.01.30-23.23.40:980][ 46]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.23.40:980][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.30-23.23.40:981][ 46]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 1:23:40 AM)
+[2016.01.30-23.23.40:981][ 46]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.30-23.23.41:037][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056206s)
+[2016.01.30-23.23.41:038][ 46]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.30-23.23.41:039][ 46]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2016.01.30-23.23.41:039][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.058610s)
+[2016.01.30-23.23.41:039][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.23.41:155][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.30-23.23.41:178][ 46]LogInit: FAudioDevice initialized.
+[2016.01.30-23.23.41:232][ 46]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.30-23.23.41:241][ 46]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-00.23.41
+[2016.01.30-23.23.41:241][ 46]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.23.41:241][ 46]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.30-23.23.41:242][ 46]LogWorld: Bringing up level for play took: 0.008383
+[2016.01.30-23.23.41:244][ 46]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.565
+[2016.01.30-23.23.41:244][ 46]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.23.49:966][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.23.50:113][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.30-23.23.50:343][397]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002088F7CB7E0
+[2016.01.30-23.24.46:645][658]LogSavePackage: Save=12748.578125ms
+[2016.01.30-23.24.46:645][658]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonExampleMap_Auto17BA6CA7E429CBF2369CF369C12E4B7C1.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.01.30-23.24.46:707][658]LogSavePackage: Total save time: 12847.751003ms
+[2016.01.30-23.24.46:707][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.01.30-23.24.46:750][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 13.022
+[2016.01.30-23.24.46:750][658]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.022
+[2016.01.30-23.24.46:769][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.01.30-23.24.46:793][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.01.30-23.24.46:793][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.01.30-23.24.47:039][658]LogSavePackage: Save=238.877731ms
+[2016.01.30-23.24.47:039][658]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonCharacter_Auto1823300724B68BB35659BEDBEAC6FD63C.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2016.01.30-23.24.47:042][658]LogSavePackage: Total save time: 246.962517ms
+[2016.01.30-23.24.47:042][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
+[2016.01.30-23.24.47:060][658]LogSavePackage: Save=2.870147ms
+[2016.01.30-23.24.47:060][658]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Ghost_Auto1839628C04D808F65F5649BA657B2087A.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Ghost_Auto1.uasset'
+[2016.01.30-23.24.47:064][658]LogSavePackage: Total save time: 6.829541ms
+[2016.01.30-23.24.47:064][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Ghost_Auto1.uasset
+[2016.01.30-23.24.47:074][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Ghost] ([1] browsable assets)...
+[2016.01.30-23.24.47:102][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Ghost.Ghost]
+[2016.01.30-23.24.47:102][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Ghost]
+[2016.01.30-23.24.47:176][658]LogSavePackage: Save=66.155289ms
+[2016.01.30-23.24.47:176][658]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Ghost_Auto1C6FBB34D4687908336F566A92CE7E5E8.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Ghost_Auto1.uasset'
+[2016.01.30-23.24.47:182][658]LogSavePackage: Total save time: 76.668896ms
+[2016.01.30-23.24.47:182][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Ghost_Auto1.uasset
+[2016.01.30-23.24.47:190][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/Cherry] ([1] browsable assets)...
+[2016.01.30-23.24.47:213][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/Cherry.Cherry]
+[2016.01.30-23.24.47:213][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/Cherry]
+[2016.01.30-23.24.47:272][658]LogSavePackage: Save=56.365463ms
+[2016.01.30-23.24.47:272][658]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Cherry_Auto111677D464123BBB4546101A1C909168D.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Cherry_Auto1.uasset'
+[2016.01.30-23.24.47:276][658]LogSavePackage: Total save time: 61.252121ms
+[2016.01.30-23.24.47:276][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/Cherry_Auto1.uasset
+[2016.01.30-23.24.47:276][658]LogFileHelpers: Auto-saving content packages took 0.522
+[2016.01.30-23.27.06:431][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.27.06:432][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.27.45:605][177]BlueprintLog: New page: Compile Coin
+[2016.01.30-23.27.45:814][177]BlueprintEditorCompileResults: Info [1946.55] Compile of Coin successful! [in 208 ms]
+[2016.01.30-23.28.14:828][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.28.31:733][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.01.30-23.30.23:322][252]BlueprintLog: New page: Compile Coin
+[2016.01.30-23.30.23:379][252]LogBlueprint:Error: [compiler Coin] Error Could not find a function named "TouchCoin" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Touch Coin 
+[2016.01.30-23.30.23:840][252]LogBlueprint:Warning: [compiler Coin] Warning [2104.57] Compile of Coin failed. 1 Fatal Issue(s) 0 Warning(s) [in 517 ms]
+[2016.01.30-23.30.23:840][252]BlueprintEditorCompileResults:Error: Error Could not find a function named "TouchCoin" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Touch Coin 
+[2016.01.30-23.30.23:840][252]BlueprintEditorCompileResults:Warning: Warning [2104.57] Compile of Coin failed. 1 Fatal Issue(s) 0 Warning(s) [in 517 ms]
+[2016.01.30-23.30.31:199][413]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.30-23.30.31:753][413]BlueprintEditorCompileResults: Info [2112.49] Compile of FirstPersonCharacter successful! [in 553 ms]
+[2016.01.30-23.30.33:407][453]BlueprintLog: New page: Compile Coin
+[2016.01.30-23.30.33:600][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.30.33:843][453]BlueprintEditorCompileResults: Info [2114.57] Compile of Coin successful! [in 434 ms]
+[2016.01.30-23.31.24:352][737]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.01.30-23.31.51:612][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.31.51:612][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.32.07:130][162]LogSavePackage: Save=15358.898438ms
+[2016.01.30-23.32.07:165][162]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonExampleMap09CC153C4F94E41AEC7686BEBC00AF52.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.01.30-23.32.07:228][162]LogSavePackage: Total save time: 15505.271751ms
+[2016.01.30-23.32.07:228][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.01.30-23.33.45:328][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.30-23.40.19:639][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Coin" FILE="../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Coin.uasset" SILENT=true
+[2016.01.30-23.40.19:706][137]LogSavePackage: Save=63.205265ms
+[2016.01.30-23.40.19:706][137]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Coin47DB31E841C6855DD4160B8213A3C46E.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Coin.uasset'
+[2016.01.30-23.40.19:711][137]LogSavePackage: Total save time: 68.837125ms
+[2016.01.30-23.40.19:711][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Coin.uasset
+[2016.01.30-23.40.21:494][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Cherry" FILE="../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Cherry.uasset" SILENT=true
+[2016.01.30-23.40.21:545][187]LogSavePackage: Save=49.114681ms
+[2016.01.30-23.40.21:545][187]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Cherry7CBF3F5F4A4D6B27D8E5D19C1B1DE831.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Cherry.uasset'
+[2016.01.30-23.40.21:553][187]LogSavePackage: Total save time: 56.956269ms
+[2016.01.30-23.40.21:553][187]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Cherry.uasset
+[2016.01.30-23.40.23:031][219]LogSavePackage: Save=181.579208ms
+[2016.01.30-23.40.23:031][219]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonCharacter67E0AA5442986F930ED20FA87259F0DD.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.30-23.40.23:037][219]LogSavePackage: Total save time: 263.748772ms
+[2016.01.30-23.40.23:037][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.30-23.40.24:005][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/Ghost" FILE="../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset" SILENT=true
+[2016.01.30-23.40.24:167][245]LogSavePackage: Save=67.364120ms
+[2016.01.30-23.40.24:167][245]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Ghost29CBB4A841F7675CC876999F5AF9E57F.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset'
+[2016.01.30-23.40.24:174][245]LogSavePackage: Total save time: 167.178940ms
+[2016.01.30-23.40.24:174][245]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/Ghost.uasset
+[2016.01.30-23.50.21:133][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.30-23.50.21:133][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.51.39:305][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.01.30-23.52.02:579][486]LogSavePackage: Save=17387.404297ms
+[2016.01.30-23.52.02:579][486]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonExampleMap_Auto2EFDB1CF24162BCBE7B237AB03B0A436D.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2016.01.30-23.52.02:609][486]LogSavePackage: Total save time: 21145.402052ms
+[2016.01.30-23.52.02:609][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2016.01.30-23.52.02:643][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 23.337
+[2016.01.30-23.52.02:643][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 23.337
+[2016.01.30-23.52.02:765][486]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2016.01.30-23.52.02:941][486]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2016.01.30-23.52.02:941][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2016.01.30-23.52.05:234][486]LogSavePackage: Save=1914.486816ms
+[2016.01.30-23.52.05:234][486]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonCharacter_Auto29789F3C44D1A018B7D95C5A60A5FEB25.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2016.01.30-23.52.05:256][486]LogSavePackage: Total save time: 2151.562694ms
+[2016.01.30-23.52.05:256][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2016.01.30-23.52.05:256][486]LogFileHelpers: Auto-saving content packages took 2.595
+[2016.01.30-23.52.45:553][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.30-23.55.30:935][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.01.30-23.58.20:209][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.01.30-23.58.33:372][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.01.31-00.00.42:915][ 34]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.00.43:265][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.01.31-00.00.43:426][ 34]BlueprintEditorCompileResults: Info [3924.16] Compile of FirstPersonCharacter successful! [in 510 ms]
+[2016.01.31-00.01.02:669][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.01.02:669][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.01.02:670][703]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:01:02 AM)
+[2016.01.31-00.01.02:671][703]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.01.02:981][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.309571s)
+[2016.01.31-00.01.02:984][703]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.01.02:984][703]LogPlayLevel: PIE: World Init took: (0.003412s)
+[2016.01.31-00.01.02:985][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.313953s)
+[2016.01.31-00.01.02:985][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.01.03:066][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.01.03:082][703]LogInit: FAudioDevice initialized.
+[2016.01.31-00.01.03:123][703]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.01.03:130][703]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.01.03
+[2016.01.31-00.01.03:130][703]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.01.03:130][703]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.01.03:131][703]LogWorld: Bringing up level for play took: 0.007032
+[2016.01.31-00.01.03:133][703]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.325
+[2016.01.31-00.01.03:134][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.01.17:598][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.01.17:669][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.01.17:736][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208970C42C0
+[2016.01.31-00.01.29:817][930]LogScript:Warning: Accessed None 'FP_Gun'
+	FirstPersonCharacter_C /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonCharacter_C_0
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:000D
+[2016.01.31-00.01.29:821][930]LogScript:Warning: Accessed None 'FP_Gun'
+	FirstPersonCharacter_C /Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:000D
+[2016.01.31-00.01.29:822][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.01.29:822][930]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.01.29:897][930]LogScript:Warning: Accessed None 'FP_Gun'
+	FirstPersonCharacter_C /Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:000D
+[2016.01.31-00.01.40:722][204]LogScript:Warning: Accessed None 'FP_Gun'
+	FirstPersonCharacter_C /Engine/Transient.World_5:PersistentLevel.FirstPersonCharacter_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:UserConstructionScript:000D
+[2016.01.31-00.01.44:286][295]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.01.44:356][295]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.31-00.01.44:459][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.01.31-00.01.44:630][295]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [3985.36] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 343 ms]
+[2016.01.31-00.01.44:630][295]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.31-00.01.44:630][295]BlueprintEditorCompileResults:Warning: Warning [3985.36] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 343 ms]
+[2016.01.31-00.02.04:099][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.02.08:716][990]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.02.08:780][990]LogBlueprint:Error: [compiler FirstPersonCharacter] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.31-00.02.08:880][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.01.31-00.02.09:069][990]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [4009.80] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 353 ms]
+[2016.01.31-00.02.09:070][990]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.01.31-00.02.09:070][990]BlueprintEditorCompileResults:Warning: Warning [4009.80] Compile of FirstPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 353 ms]
+[2016.01.31-00.02.27:996][533]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.02.28:238][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.02.28:352][533]BlueprintEditorCompileResults: Info [4029.09] Compile of FirstPersonCharacter successful! [in 356 ms]
+[2016.01.31-00.02.34:362][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.02.34:362][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.02.34:363][714]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:02:34 AM)
+[2016.01.31-00.02.34:363][714]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.02.34:405][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041848s)
+[2016.01.31-00.02.34:406][714]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.02.34:407][714]LogPlayLevel: PIE: World Init took: (0.001963s)
+[2016.01.31-00.02.34:407][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044249s)
+[2016.01.31-00.02.34:407][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.02.34:488][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.02.34:503][714]LogInit: FAudioDevice initialized.
+[2016.01.31-00.02.34:546][714]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.02.34:552][714]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.02.34
+[2016.01.31-00.02.34:552][714]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.02.34:553][714]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.02.34:553][714]LogWorld: Bringing up level for play took: 0.006203
+[2016.01.31-00.02.34:555][714]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.746
+[2016.01.31-00.02.34:555][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.02.37:355][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.02.37:426][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.02.37:493][870]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002083FE0CF40
+[2016.01.31-00.03.10:449][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.03.10:449][796]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.03.10:538][796]LogEditorActor: Deleted 0 Actors (2.079 secs)
+[2016.01.31-00.04.20:286][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.04.20:286][370]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.31-00.04.20:312][370]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2016.01.31-00.04.20:515][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 229 ms (4 blueprints)
+[2016.01.31-00.04.20:521][370]LogPlayLevel: [PlayLevel] Compiling Ghost before play...
+[2016.01.31-00.04.20:616][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 330 ms (4 blueprints)
+[2016.01.31-00.04.20:621][370]LogPlayLevel: [PlayLevel] Compiling Cherry before play...
+[2016.01.31-00.04.20:701][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 415 ms (4 blueprints)
+[2016.01.31-00.04.20:705][370]LogPlayLevel: [PlayLevel] Compiling Coin before play...
+[2016.01.31-00.04.20:782][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 496 ms (4 blueprints)
+[2016.01.31-00.04.20:860][370]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:04:20 AM)
+[2016.01.31-00.04.20:860][370]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.04.20:898][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037710s)
+[2016.01.31-00.04.20:900][370]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.04.20:900][370]LogPlayLevel: PIE: World Init took: (0.002020s)
+[2016.01.31-00.04.20:900][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040272s)
+[2016.01.31-00.04.20:981][370]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.04.20:996][370]LogInit: FAudioDevice initialized.
+[2016.01.31-00.04.21:040][370]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.04.21:047][370]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.04.21
+[2016.01.31-00.04.21:047][370]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.04.21:047][370]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.04.21:048][370]LogWorld: Bringing up level for play took: 0.006303
+[2016.01.31-00.04.21:049][370]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.241
+[2016.01.31-00.04.21:049][370]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.04.36:094][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.04.36:149][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.04.36:149][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.04.36:258][143]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020897FF16C0
+[2016.01.31-00.07.03:403][366]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.07.03:591][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.07.03:591][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.07.03:707][366]BlueprintEditorCompileResults: Info [4304.44] Compile of FirstPersonCharacter successful! [in 302 ms]
+[2016.01.31-00.07.05:274][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.07.05:274][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.07.05:274][410]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:07:05 AM)
+[2016.01.31-00.07.05:274][410]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.07.05:316][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041558s)
+[2016.01.31-00.07.05:318][410]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.07.05:318][410]LogPlayLevel: PIE: World Init took: (0.002013s)
+[2016.01.31-00.07.05:318][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.044021s)
+[2016.01.31-00.07.05:319][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.07.05:401][410]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.07.05:416][410]LogInit: FAudioDevice initialized.
+[2016.01.31-00.07.05:463][410]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.07.05:469][410]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.07.05
+[2016.01.31-00.07.05:470][410]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.07.05:470][410]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.07.05:470][410]LogWorld: Bringing up level for play took: 0.006613
+[2016.01.31-00.07.05:472][410]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.337
+[2016.01.31-00.07.05:472][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.07.20:305][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.07.20:371][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.07.20:439][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002085BBC0400
+[2016.01.31-00.07.37:598][791]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.01.31-00.07.37:711][791]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2016.01.31-00.08.08:230][184]Cmd: SELECT NONE
+[2016.01.31-00.08.09:773][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.08.09:773][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.08.09:773][245]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:08:09 AM)
+[2016.01.31-00.08.09:773][245]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.08.09:812][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038718s)
+[2016.01.31-00.08.09:813][245]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.08.09:814][245]LogPlayLevel: PIE: World Init took: (0.001734s)
+[2016.01.31-00.08.09:814][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.040921s)
+[2016.01.31-00.08.09:893][245]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.08.09:908][245]LogInit: FAudioDevice initialized.
+[2016.01.31-00.08.09:950][245]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.08.09:956][245]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.08.09
+[2016.01.31-00.08.09:956][245]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.08.09:956][245]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.08.09:957][245]LogWorld: Bringing up level for play took: 0.006524
+[2016.01.31-00.08.09:959][245]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.15
+[2016.01.31-00.08.09:959][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.08.23:353][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.08.23:400][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.08.23:468][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000208063B37E0
+[2016.01.31-00.12.04:034][ 79]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.12.04:536][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.12.04:536][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.12.04:854][ 79]BlueprintEditorCompileResults: Info [4605.59] Compile of FirstPersonCharacter successful! [in 819 ms]
+[2016.01.31-00.12.10:468][219]LogSavePackage: Save=203.796967ms
+[2016.01.31-00.12.10:468][219]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonCharacterEC7D23594A6A08505C5D518F8A53EEDA.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.31-00.12.10:475][219]LogSavePackage: Total save time: 216.446228ms
+[2016.01.31-00.12.10:475][219]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.31-00.12.35:741][228]LogEditorViewport: Clicking on Actor (LMB): Coin_C (Coin2)
+[2016.01.31-00.12.38:325][338]LogEditorViewport: Clicking on Actor (LMB): Coin_C (Coin)
+[2016.01.31-00.13.11:859][398]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.13.12:095][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.13.12:096][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.13.12:408][398]BlueprintEditorCompileResults: Info [4673.14] Compile of FirstPersonCharacter successful! [in 547 ms]
+[2016.01.31-00.13.14:033][406]LogSavePackage: Save=668.574768ms
+[2016.01.31-00.13.14:033][406]LogSavePackage: Moving '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Saved/FirstPersonCharacterD7A93225408FA474421C71939A3178BB.tmp' to '../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.01.31-00.13.14:056][406]LogSavePackage: Total save time: 700.724676ms
+[2016.01.31-00.13.14:056][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Myran/Documents/Unreal Projects/FPS/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2016.01.31-00.13.16:644][452]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.13.16:644][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.13.16:644][452]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:13:16 AM)
+[2016.01.31-00.13.16:645][452]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.13.16:730][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085591s)
+[2016.01.31-00.13.16:734][452]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.13.16:735][452]LogPlayLevel: PIE: World Init took: (0.004189s)
+[2016.01.31-00.13.16:735][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.090685s)
+[2016.01.31-00.13.16:736][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.13.16:956][452]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.13.17:008][452]LogInit: FAudioDevice initialized.
+[2016.01.31-00.13.17:084][452]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.13.17:103][452]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.13.17
+[2016.01.31-00.13.17:103][452]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.13.17:104][452]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.13.17:168][452]LogWorld: Bringing up level for play took: 0.082040
+[2016.01.31-00.13.17:173][452]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.364
+[2016.01.31-00.13.17:174][452]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.13.33:124][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.13.33:251][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.13.33:428][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002085CB6F740
+[2016.01.31-00.14.25:046][777]BlueprintLog: New page: Compile FirstPersonCharacter
+[2016.01.31-00.14.25:228][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.01.31-00.14.25:228][777]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.14.25:347][777]BlueprintEditorCompileResults: Info [4746.08] Compile of FirstPersonCharacter successful! [in 300 ms]
+[2016.01.31-00.14.27:279][841]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.14.27:279][841]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-00.14.27:279][841]PIE: New page: PIE session: FirstPersonExampleMap (Jan 31, 2016, 2:14:27 AM)
+[2016.01.31-00.14.27:279][841]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.01.31-00.14.27:323][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043966s)
+[2016.01.31-00.14.27:325][841]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.31-00.14.27:325][841]LogPlayLevel: PIE: World Init took: (0.001963s)
+[2016.01.31-00.14.27:325][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.046412s)
+[2016.01.31-00.14.27:325][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.31-00.14.27:412][841]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-00.14.27:427][841]LogInit: FAudioDevice initialized.
+[2016.01.31-00.14.27:466][841]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.01.31-00.14.27:473][841]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.01.31-01.14.27
+[2016.01.31-00.14.27:473][841]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.14.27:473][841]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-00.14.27:474][841]LogWorld: Bringing up level for play took: 0.007112
+[2016.01.31-00.14.27:475][841]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.333
+[2016.01.31-00.14.27:476][841]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.01.31-00.14.44:433][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExample
