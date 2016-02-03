@@ -1,2 +1,4 @@
 atmosphere.wav filter=lfs diff=lfs merge=lfs -text
 Hintergrundsounds.wav filter=lfs diff=lfs merge=lfs -text
+atmosphere.uasset filter=lfs diff=lfs merge=lfs -text
+Hintergrundsounds.uasset filter=lfs diff=lfs merge=lfs -text
