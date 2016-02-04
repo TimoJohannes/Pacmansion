@@ -6,15 +6,26 @@
     
 
 
-## HOW-TOs
+# HOW-TO git
 
-### Setup
-- git-lfs muss installiert sein: https://git-lfs.github.com/
-- Im Menü unter _Source Control_ _Connect to Source Control_ wählen
-- git auswählen und Pfad zur _git.exe_ prüfen
+# Setup
+- ___git-lfs___ installieren: <https://git-lfs.github.com/>
+- Im Menü unter ___Source Control___ > ___Connect to Source Control___ wählen
+- _git_ auswählen und Pfad zur _git.exe_ prüfen
 - Sich freuen! :)
-- Commiten auch über Unreal möglich. Unter _Source Control_ _Submit to Source Control..._
 
 
-### Umgang mit großen Dateien
-- _TODO..._
+# Änderungen teilen
+- Wenn neue Dateien hinzugefügt wurden, die größer als 50MB sin, diese zu ___lfs___ hinzufügen:
+
+        $> git lfs track DATEINAME
+
+- Änderunen _commiten_
+ - Option 1: über Kommandozeile:
+
+          $> git commit -am "NACHRICHT"
+
+ - Option 2: über Unreal Editor, unter ___Source Control___ > ___Submit to Source Control...___
+- Änderungen zum Server pushen
+
+        $> git push
