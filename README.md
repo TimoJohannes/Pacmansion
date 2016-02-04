@@ -13,6 +13,10 @@
 
 ### 1. Setup
 - ___git-lfs___ installieren: <https://git-lfs.github.com/>
+- Im Repository ausführen:
+
+        $> git lfs install
+
 - Im Menü unter ___Source Control___ > ___Connect to Source Control___ wählen
 - _git_ auswählen und Pfad zur _git.exe_ prüfen
 - Sich freuen! :smile:
