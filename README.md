@@ -19,7 +19,7 @@
 
 
 ### 2. Änderungen teilen
-- Wenn neue Dateien hinzugefügt wurden, die größer als 50MB sin, diese zu ___lfs___ hinzufügen:
+- Wenn neue Dateien hinzugefügt wurden, die größer als _50MB_ sind, diese zu ___lfs___ hinzufügen:
 
         $> git lfs track DATEINAME
 
