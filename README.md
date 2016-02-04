@@ -9,16 +9,16 @@
 ![](img/Logo.png)
 -->
 
-# HOW-TO git
+## HOW-TO git
 
-# Setup
+### 1. Setup
 - ___git-lfs___ installieren: <https://git-lfs.github.com/>
 - Im Menü unter ___Source Control___ > ___Connect to Source Control___ wählen
 - _git_ auswählen und Pfad zur _git.exe_ prüfen
 - Sich freuen! :smile:
 
 
-# Änderungen teilen
+### 2. Änderungen teilen
 - Wenn neue Dateien hinzugefügt wurden, die größer als 50MB sin, diese zu ___lfs___ hinzufügen:
 
         $> git lfs track DATEINAME
