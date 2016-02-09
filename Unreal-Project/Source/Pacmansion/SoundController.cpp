@@ -1,25 +1,31 @@
 #include "Pacmansion.h"
 #include "SoundController.h"
 
-float sfxVolume = 0.5;
-float musicVolume = 0.5;
+USoundClass* MusicSoundClass;
+USoundClass* SFXSoundClass;
 
 float USoundController::GetMusicVolume()
 {
-	return musicVolume;
+	return MusicSoundClass->Properties.Volume;
 }
 
 float USoundController::GetSFXVolume()
 {
-	return sfxVolume;
+	return SFXSoundClass->Properties.Volume;
 }
 
 void USoundController::SetMusicVolume(float Volume)
 {
-	musicVolume = Volume;
+	MusicSoundClass->Properties.Volume = Volume;
 }
 
 void USoundController::SetSFXVolume(float Volume)
 {
-	sfxVolume = Volume;
+	SFXSoundClass->Properties.Volume = Volume;
+}
+
+void USoundController::SetSoundClasses(USoundClass* Music, USoundClass* SFX)
+{
+	MusicSoundClass = Music;
+	SFXSoundClass = SFX;
 }
