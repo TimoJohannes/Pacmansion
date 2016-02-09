@@ -6,7 +6,7 @@
                             --------------------- IN DEVELOPMENT --------------------
 
 <!--
-![](img/Logo.png)
+![](img/Logo-888.png)
 -->
 
 ## HOW-TO git
