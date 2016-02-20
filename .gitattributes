@@ -1,5 +1,0 @@
-atmosphere.wav filter=lfs diff=lfs merge=lfs -text
-backgroundsounds.wav filter=lfs diff=lfs merge=lfs -text
-background.wav filter=lfs diff=lfs merge=lfs -text
-Background.uasset filter=lfs diff=lfs merge=lfs -text
-Background1.uasset filter=lfs diff=lfs merge=lfs -text
